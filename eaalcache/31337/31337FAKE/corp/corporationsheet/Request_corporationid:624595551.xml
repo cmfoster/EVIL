@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-04-14 22:42:57</currentTime>
+  <result>
+    <corporationID>624595551</corporationID>
+    <corporationName>Tri-gun</corporationName>
+    <ticker>3-GUN</ticker>
+    <ceoID>926245931</ceoID>
+    <ceoName>StarConquer212</ceoName>
+    <stationID>60013351</stationID>
+    <stationName>Meunvon IV - Moon 3 - Impro Factory</stationName>
+    <description>&lt;font size="12" color="#bfffffff"&gt;Warning: Does not play well with others&lt;br&gt;&lt;br&gt;WE ARE THE DREAM CREAM TEAM!!!&lt;br&gt;&lt;br&gt;"Tri-gun, a group of people that probably should repeat the 3rd grade"&lt;br&gt;&lt;br&gt;&lt;br&gt;"There's no way you're going to get a quote from us to use on your corp description&lt;br&gt;-Concord Spokesperson"&lt;br&gt;&lt;br&gt;&lt;br&gt;Your reaction was better than I'd hoped. You're fun. And to think I could kill every man, woman, and child here, in the blink of an eye, if I wanted to… The power of death is intoxicating."&lt;br&gt;&lt;br&gt;#&lt;br&gt;why don't you go ahead? I would welcome this to be my time. After all, there's no reason for such an egocentric, incomplete life like mine to be allowed to continue anyway. Give me the gift of nothingness. Give me death."&lt;br&gt;&lt;br&gt;&lt;br&gt;Recruitment: Limited Open&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Public channel "Tri-gun Pub"&lt;br&gt;&lt;br&gt;Public Relations oversite (aka mail him if no one in public channel)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size="12" color="#ffffa600"&gt;&lt;a href="showinfo:1383//926245931"&gt;StarConquer212&lt;/a&gt;&lt;/font&gt;</description>
+    <url>http://trigun.eve-kill.net/?a=home</url>
+    <allianceID>864733958</allianceID>
+    <allianceName>Psychotic Tendencies.</allianceName>
+    <taxRate>10.1</taxRate>
+    <memberCount>82</memberCount>
+    <shares>1100</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>460</shape1>
+      <shape2>507</shape2>
+      <shape3>513</shape3>
+      <color1>677</color1>
+      <color2>680</color2>
+      <color3>680</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-04-15 04:39:51</cachedUntil>
+</eveapi>

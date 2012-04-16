@@ -1,0 +1,5 @@
+<%if request.env["HTTP_EVE_TRUSTED"].downcase != 'yes'%>
+	<h6 class="trusted">Trusted: <small class="not-trusted">NO</small></h6>
+<%else%>
+	<h6 class="trusted">Trusted: <small class="trusted">YES</small></h6>
+<%end%>

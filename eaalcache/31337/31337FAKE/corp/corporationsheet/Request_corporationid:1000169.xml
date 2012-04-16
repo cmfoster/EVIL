@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-04-14 20:56:55</currentTime>
+  <result>
+    <corporationID>1000169</corporationID>
+    <corporationName>Center for Advanced Studies</corporationName>
+    <ticker>CAS</ticker>
+    <ceoID>3004245</ceoID>
+    <ceoName>Aurie Aurtnie</ceoName>
+    <stationID>60014719</stationID>
+    <stationName>Cistuvaert V - Moon 12 - Center for Advanced Studies School</stationName>
+    <description />
+    <url />
+    <allianceID>0</allianceID>
+    <taxRate>11</taxRate>
+    <memberCount>645986</memberCount>
+    <shares>100000000</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>0</shape1>
+      <shape2>0</shape2>
+      <shape3>0</shape3>
+      <color1>0</color1>
+      <color2>0</color2>
+      <color3>0</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-04-14 22:31:22</cachedUntil>
+</eveapi>

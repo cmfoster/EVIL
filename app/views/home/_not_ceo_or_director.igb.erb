@@ -1,0 +1,20 @@
+<%if request.env["HTTP_EVE_TRUSTED"].downcase == "yes"%>
+	<h6 class="description">To confirm that <character><%=request.env["HTTP_EVE_CHARNAME"]%></character> is your character and continue registration, click the "confirm" button below.</h6>
+	<div class="registration-igb">
+		<button class="register">Confirm Character</button>
+	</div>
+<%else%>
+<h3 class="nottrusted">You must <b><%=link_to "trust", '#', :remote => true, :id => 'trustme'%></b> this website for services to work properly. <white>Refresh browser after trusting the site.</white></h3>
+<%end%>
+
+<script>
+$("button.register").click(function() {
+	$(this).fadeOut(600, function(){
+		$("#api-form-igb").fadeIn(1000);
+	});
+});
+
+$('#trustme').click(function(){
+	CCPEVE.requestTrust("http://<%=escape_javascript(request.env['HTTP_HOST'])%>");
+});
+</script>

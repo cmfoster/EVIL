@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  char_id: 1
+  char_name: MyString
+  corp_name: MyString
+  corp_id: 1
+  alliance_name: MyString
+  alliance_id: 1
+  ship_type: MyString
+  corporation_id: 1
+
+two:
+  char_id: 1
+  char_name: MyString
+  corp_name: MyString
+  corp_id: 1
+  alliance_name: MyString
+  alliance_id: 1
+  ship_type: MyString
+  corporation_id: 1

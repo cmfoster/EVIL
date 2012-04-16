@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-04-15 06:22:34</currentTime>
+  <result>
+    <corporationID>98099935</corporationID>
+    <corporationName>New Eden Market Exploitations</corporationName>
+    <ticker>ISKHO</ticker>
+    <ceoID>1823366388</ceoID>
+    <ceoName>Commander Wolff</ceoName>
+    <stationID>60002167</stationID>
+    <stationName>Oimmo VII - Moon 10 - Ishukone Corporation Factory</stationName>
+    <description>Just logistics, feel free to apply, but you'll be bored.</description>
+    <url>http://www.youtube.com/watch?v=lMSjd6HNQdY</url>
+    <allianceID>0</allianceID>
+    <taxRate>7</taxRate>
+    <memberCount>13</memberCount>
+    <shares>1000</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>566</shape1>
+      <shape2>499</shape2>
+      <shape3>513</shape3>
+      <color1>672</color1>
+      <color2>677</color2>
+      <color3>680</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-04-15 06:36:09</cachedUntil>
+</eveapi>

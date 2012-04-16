@@ -1,0 +1,10 @@
+<%character_name = request.env["HTTP_EVE_CHARNAME"]%>
+<%mail_subject = "Requesting we use this cool new intel application, Its free!"%>
+
+<%mail_body = "#{@users_ceo[:ceoname]},<br/><br/>One of your corporation members <b>#{character_name}</b> has recently tried to use the EVE Virtual Intel Layer application to improve corporate/alliance intelligence reguarding hostile targets.<br/><b>#{character_name}</b> and his fellow corp mates will not be able to:<br/><br/><b>	*Share up to the second visualized intel on targets and hostile fleets.<br/>	*Have instant access to a reported targets battle stats.<br/>	*See what systems the entirety of their fleet&corporation members are located up to the second.<br/>	*Access to our target movement prediction generator.<br/>	*(CEO ONLY) Manage and add additional non-corp members<br/>	*(CEO ONLY) Linkup your intel with your alliance to create an alliance wide intel system.</b><br/><br/>These features are just some of the cool things that E.V.I.L. offers to its members. The cool part about all of this is we only require the CEO to register,after youve registered, your entire corporation can access the application with one click and require no registration process. We do not require any sensitive information such as API key or email addresses."%>
+
+<script>
+$('button.register').click(function(){
+	CCPEVE.sendMail(<%=sanitize"'#{@users_ceo[:ceoid]}','#{mail_subject}', '#{mail_body}'" if @users_ceo%>) //Use this to have people within corporations that are not registered mail their ceo to request they sign up.	
+});
+</script>

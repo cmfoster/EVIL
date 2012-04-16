@@ -1,0 +1,17 @@
+<div class="span5 ">
+	<p><%=request.env['HTTP_EVE_SOLARSYSTEMNAME']%></p>
+	<p><%=request.env['HTTP_EVE_STATIONNAME']%></p>
+	<p><%=request.env['HTTP_EVE_REGIONNAME']%></p>
+	<p><%=request.env['HTTP_EVE_CONSTELLATIONNAME']%></p>
+	<p><%=request.env['HTTP_EVE_ALLIANCENAME']%></p>
+	<p><%=request.env['HTTP_EVE_SHIPTYPENAME']%></p>
+</div>
+<div class="span4">
+<p>Create Target Form here</p>
+</div>
+
+<script>
+var user_id = <%=@user.id%>
+CCPEVE.requestTrust("<%=escape_javascript(request.env['HTTP_HOST'])%>")
+setInterval(function(){$.get("/users/"+user_id+"/reload.js");}, 3000)
+</script>

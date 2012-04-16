@@ -1,0 +1,23 @@
+	<div class="hero-unit main-display-igb">
+		<h1>E.V.I.L.</h1>
+		<h4><small>Eve Virtual Intel Layer is an advanced intel system for corporations and alliances to better track war targets and collaborate in organized attacks.</small></h4>
+	</div>
+<div class="row main-row-igb">
+	<div class="span6 fleet-registration-igb">
+		<%= render :partial => 'partials/trusted' if !request.env['HTTP_EVE_TRUSTED'].blank?%>
+		<p class="information">If you are a member of a Corporation or Alliance that has already been registered you can simply confirm your character below to be accepted into the application.</p>
+		<%if !request.env["HTTP_EVE_CORPROLES"].blank?%>
+			<%=render :partial => 'is_ceo_or_director' if request.env["HTTP_EVE_CORPROLES"].downcase == "ceo" or "director"%>
+		<%else%>
+			<%=render :partial => 'not_ceo_or_director' if @corporation%>
+			<%=render :partial => 'corporation_not_registered' unless @corporation%>
+		<%end%>
+	</div>
+	<div class="span6 how-to-igb">
+		<h2>How to (Video or Ordered List)</h2>
+		<p><%=request.env["HTTP_EVE_CHARID"]%></p>
+	</div>
+</div>
+<script>
+CCPEVE.requestTrust("http://<%=escape_javascript(request.env['HTTP_HOST'])%>");
+</script>

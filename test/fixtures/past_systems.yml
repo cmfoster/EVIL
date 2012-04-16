@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  solar_system: MyString
+  ship_type: MyString
+  target_id: 1
+
+two:
+  solar_system: MyString
+  ship_type: MyString
+  target_id: 1

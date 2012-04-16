@@ -1,0 +1,10 @@
+<%if request.env["HTTP_EVE_TRUSTED"].downcase == "yes"%>
+	<h6 class="description">Your corporation must be registered before you can use our services. To request that your CEO <character><%=@users_ceo[:ceoname].titleize if @users_ceo%></character> sign up for our services please do so by clicking the button below.</h6>
+	<div class="registration-igb">
+		<button class="register">Send CEO request</button>
+	</div>
+	<%=render :partial => 'signup_mailer'%>
+<%else%>
+<h3 class="nottrusted">You must <b><%=link_to "trust", '#', :remote => true, :id => 'trustme'%></b> this website for services to work properly. <white>Refresh browser after trusting the site.</white></h3>
+<%end%>
+

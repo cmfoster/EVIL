@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-04-14 20:56:47</currentTime>
+  <result>
+    <corporationID>98056245</corporationID>
+    <corporationName>CELTII LOST SOUL DIVISION</corporationName>
+    <ticker>P-URE</ticker>
+    <ceoID>996650082</ceoID>
+    <ceoName>Katsuragi Mimiko</ceoName>
+    <stationID>60011866</stationID>
+    <stationName>Dodixie IX - Moon 20 - Federation Navy Assembly Plant</stationName>
+    <description>.:Lost Soul Division:.&lt;br&gt;&lt;br&gt;abandoned souls, seeking the mighy fisting glove in the depth of the space&lt;br&gt;&lt;br&gt;Was wir bieten:&lt;br&gt;- PVP-Training / PVP-Roams im Low&lt;br&gt;- Corpmining / Mining mit Orca Support&lt;br&gt;- PVE / Hilfe bei Missionen Lvl 1-5&lt;br&gt;- Corpinterne Produktion&lt;br&gt;- TS3 / Forum&lt;br&gt;- POS mit Forschungsmöglichkeit&lt;br&gt;&lt;br&gt;Was wir erwarten:&lt;br&gt;- Mindestens 18 Jahre&lt;br&gt;- Aktivität&lt;br&gt;- Freundliches, umgängliches Auftreten&lt;br&gt;- PVP/PVE-Fighter oder Miner&lt;br&gt;- KEINE Alts (Ausser Main ist auch bei uns)&lt;br&gt;&lt;br&gt;Wir suchen ständig neue Spieler (nehmen zur Zeit auch noch Neulinge auf)!&lt;br&gt;&lt;br&gt;Bei Interesse, eifach unserem Rekrutierungsverantwortlichem numarum schreiben oder direkt eine Bewerbung an uns!</description>
+    <url>http://</url>
+    <allianceID>0</allianceID>
+    <taxRate>100</taxRate>
+    <memberCount>6</memberCount>
+    <shares>1000</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>415</shape1>
+      <shape2>419</shape2>
+      <shape3>500</shape3>
+      <color1>674</color1>
+      <color2>0</color2>
+      <color3>0</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-04-15 01:22:37</cachedUntil>
+</eveapi>
