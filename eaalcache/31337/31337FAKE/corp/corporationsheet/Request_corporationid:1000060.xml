@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-07-22 02:34:59</currentTime>
+  <result>
+    <corporationID>1000060</corporationID>
+    <corporationName>Native Freshfood</corporationName>
+    <ticker>NF</ticker>
+    <ceoID>3004445</ceoID>
+    <ceoName>Audari Keor</ceoName>
+    <stationID>60005761</stationID>
+    <stationName>Gelfiven V - Native Freshfood Warehouse</stationName>
+    <description />
+    <url />
+    <allianceID>0</allianceID>
+    <taxRate>11</taxRate>
+    <memberCount>32585</memberCount>
+    <shares>446390711</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>0</shape1>
+      <shape2>0</shape2>
+      <shape3>0</shape3>
+      <color1>0</color1>
+      <color2>0</color2>
+      <color3>0</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-07-22 07:46:00</cachedUntil>
+</eveapi>
