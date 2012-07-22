@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   
   def reload
     @user = User.find_by_char_id(request.env['HTTP_EVE_CHARID'])
+    respond_with @user
   end
   
   def create_or_update_target

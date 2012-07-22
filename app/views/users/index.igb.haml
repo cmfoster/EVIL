@@ -1,0 +1,36 @@
+=image_tag("banner.png", :width =>500, :class => 'banner-igb')
+
+%ul#tabs{:class=>"nav nav-tabs"}
+	%li.active
+		%a{:href=>"#Intel", "data-toggle"=>"tab"}
+			Intel
+	%li
+		%a{:href=>"#CorpLocations", "data-toggle"=>"tab"}>Corp Locations
+	%li
+		%a{:href=>"#TargetsStats", "data-toggle"=>"tab"}
+			Targets Stats
+	%li
+		%a{:href=>"#Settings", "data-toggle"=>"tab"}
+			Settings
+	%li
+		%a{:href=>"#YourInfo", "data-toggle"=>"tab"}
+			Your Info
+	=render :partial => 'modal_new_target'
+	=link_to "Report Target", "#report_target_modal", :class => "btn btn-primary", "data-toggle" => "modal"
+
+%div{:class=>"span10 intel-igb"}
+	#Intel{:class=>"tab-igb tab-pane fade active in"}
+		=render :partial => 'tab-partials/intel'
+	#CorpLocations{:class=>"tab-igb tab-pane fade"}
+		=render :partial => 'tab-partials/corp_locations'
+	#TargetsStats{:class=>"tab-igb tab-pane fade"}
+		=render :partial => 'tab-partials/targets_stats'
+	#Settings{:class=>"tab-igb tab-pane fade"}
+		=render :partial => 'tab-partials/settings'
+	#YourInfo{:class=>"tab-igb tab-pane fade"}
+		=render :partial => 'tab-partials/your_info'
+
+:javascript
+	var user_id = "#{@user.id}"
+	CCPEVE.requestTrust("<%=escape_javascript(request.env['HTTP_HOST'])%>");
+	setInterval(function(){$.get("/users/"+user_id+"/reload.js");}, 3000);

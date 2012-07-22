@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2012-06-11 00:09:48</currentTime>
+  <result>
+    <corporationID>1276063591</corporationID>
+    <corporationName>Project Nemesis</corporationName>
+    <ticker>PRONS</ticker>
+    <ceoID>1013596333</ceoID>
+    <ceoName>Meriel Coden</ceoName>
+    <stationID>60004189</stationID>
+    <stationName>Uedama VI - Moon 8 - Spacelane Patrol Logistic Support</stationName>
+    <description>&lt;font size="12" color="#bfffffff"&gt;--We are &lt;/font&gt;&lt;font size="12" color="#ffffa600"&gt;&lt;a href="showinfo:1379//1888333448"&gt;considering&lt;/a&gt;&lt;/font&gt;&lt;font size="12" color="#bfffffff"&gt; your &lt;/font&gt;&lt;font size="12" color="#ffffa600"&gt;&lt;a href="showinfo:1375//584768717"&gt;applications&lt;/a&gt;&lt;/font&gt;&lt;font size="12" color="#bfffffff"&gt;--&lt;br&gt;&lt;br&gt;For war info, also try contacting &lt;/font&gt;&lt;font size="12" color="#ffffa600"&gt;&lt;loc&gt;&lt;a href="showinfo:1384//1947192907"&gt;Ship Shap3&lt;/a&gt;&lt;/loc&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size="12" color="#bfffffff"&gt;We are an industrial corp that owns (3) &lt;/font&gt;&lt;font size="12" color="#ffffa600"&gt;&lt;a href="showinfo:11377"&gt;Nemesis&lt;/a&gt;&lt;/font&gt;&lt;font size="12" color="#bfffffff"&gt; BPOs and our main purpose is to supply eve with gallente stealth bombers. It's our "project". Hence the name "Project Nemesis"&lt;/font&gt;</description>
+    <url>http://i.imgur.com/wFSd6.jpg</url>
+    <allianceID>0</allianceID>
+    <taxRate>0</taxRate>
+    <memberCount>19</memberCount>
+    <shares>1000</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>421</shape1>
+      <shape2>564</shape2>
+      <shape3>496</shape3>
+      <color1>674</color1>
+      <color2>680</color2>
+      <color3>674</color3>
+    </logo>
+  </result>
+  <cachedUntil>2012-06-11 04:57:29</cachedUntil>
+</eveapi>

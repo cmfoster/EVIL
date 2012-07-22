@@ -1,0 +1,19 @@
+#report_target_modal{:class=>"modal hide fade"}
+	.modal-header
+		%a{:class=>"close", "data-dismiss"=>"modal"}
+			×
+		%h3.orange
+			Header
+
+	.modal-body
+		=form_tag(user_new_target_path(@user), :remote => true)
+		=label_tag :name
+		=text_field_tag :name
+		=label_tag :system
+		=text_field_tag :system
+		=label_tag :ship_type
+		=text_field_tag :ship_type
+
+	.modal-footer
+		=submit_tag "Submit", :class => "btn"
+		=link_to "Cancel", '#', :class => "btn", "data-dismiss" => "modal"
