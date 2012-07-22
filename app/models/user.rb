@@ -38,4 +38,15 @@ class User < ActiveRecord::Base
       end
     end
   end
+  
+  def check_distance(user_location, target_location)
+    loc_x = user_location
+    loc_y = target_location
+    begin
+      xml = Nokogiri::HTML(open("http://evemaps.dotlan.net/route#{loc_x}:#{loc_y}"))
+      jumps = xml.xpath("//table[@class='tablelist table-tooltip']/tr").last.children.first.text
+    rescue exception
+      return "Unknown"
+    end
+  end
 end

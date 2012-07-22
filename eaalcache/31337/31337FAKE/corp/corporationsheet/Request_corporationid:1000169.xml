@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <eveapi version="2">
-  <currentTime>2012-04-14 20:56:55</currentTime>
+  <currentTime>2012-04-17 16:23:58</currentTime>
   <result>
     <corporationID>1000169</corporationID>
     <corporationName>Center for Advanced Studies</corporationName>
@@ -13,7 +13,7 @@
     <url />
     <allianceID>0</allianceID>
     <taxRate>11</taxRate>
-    <memberCount>645986</memberCount>
+    <memberCount>647066</memberCount>
     <shares>100000000</shares>
     <logo>
       <graphicID>0</graphicID>
@@ -25,5 +25,5 @@
       <color3>0</color3>
     </logo>
   </result>
-  <cachedUntil>2012-04-14 22:31:22</cachedUntil>
+  <cachedUntil>2012-04-17 21:55:42</cachedUntil>
 </eveapi>

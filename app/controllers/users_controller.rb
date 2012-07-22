@@ -11,8 +11,9 @@ class UsersController < ApplicationController
     @user = User.find_by_char_id(request.env['HTTP_EVE_CHARID'])
   end
   
-  
-  
+  def create_or_update_target
+    
+  end
   
   private
   
